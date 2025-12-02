@@ -1,0 +1,50 @@
+.campo_opcional{
+    margin: 0 0 0 10px;
+    color: #91B728;
+}
+.campo_requerido{
+    margin: 0 0 0 10px;
+    color: #2687BD;
+}
+span.wpcf7-list-item { display: table-row;}
+span.wpcf7-list-item * { display: inline !important; }
+label.titulo-pregunta {
+    margin-bottom: 0.8rem;
+    font-size: 14px;
+    font-weight: 600;
+}
+span.wpcf7-list-item-label {
+    color: #20264F;
+    text-align: left !important;
+}
+span.wpcf7-list-item-label::before{
+    margin-left: 5px;
+}
+span.wpcf7-list-item.last.has-free-text > input.wpcf7-free-text{
+    display: block;
+    width: 100% !important; 
+    margin-bottom: 10px;
+}
+.wpcf7-seccion-submit{
+    width: 100% !important;
+    text-align: center;
+}	
+.wpcf7-submit-bt{
+    border-color: #20264F #20264F #20264F !important;
+    border-radius: 5px !important;
+    background-color: #91B728 !important;
+    color: rgb(255 255 255 / 80%) !important;
+    padding: 10px 40px !important;
+}
+.wpcf7-submit-bt:hover{
+    border-color: #20264F #20264F #20264F !important;
+    background-color: #20264F !important;
+    color: #fff !important;
+}
+/*correcion codigo captcha bug en buzon transparencia 28082024*/
+
+.wpcf7-recaptcha iframe {
+    min-height: 100px;
+}
+
+	
